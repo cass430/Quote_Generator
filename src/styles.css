@@ -1,3 +1,13 @@
 h1 {
-  color: violet;
+  color: #101010;
+}
+
+.container {
+  text-align: center;
+  max-width: 750px;
+  height: 700px;
+  margin: auto;
+  background-image: url("images/Designer.jpeg");
+  border: 10px solid #101010;
+  border-radius: 20px;
 }
