@@ -8,7 +8,7 @@ body {
 .container {
   text-align: center;
   max-width: 750px;
-  height: 700px;
+  max-height: 700px;
   margin: auto;
   background-image: url("images/Designer.jpeg");
   border: 10px solid #101010;
@@ -17,18 +17,28 @@ body {
 }
 
 h1 {
+  margin-top: 50px;
   padding: 20px;
 }
 
 form {
   display: flex;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.form-wrapper {
+  background-color: rgba(250, 235, 215, 0.6);
+  width: 80%;
+  padding-top: 20px;
+  margin: 0% auto;
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
 
 .search-bar {
   padding: 10px;
-  width: 75%;
+  width: 80%;
   border: rgba(39, 33, 66, 0.5);
   border-radius: 10px;
   margin-left: 2%;
@@ -53,25 +63,36 @@ form {
   margin-top: 20px;
   text-align: center;
   max-width: 80%;
-  height: 50%;
+  max-height: 50%;
   background-color: rgba(250, 235, 215, 0.6);
   border-radius: 10px;
   align-items: center;
   font-size: larger;
   line-height: 1.5;
   font-weight: 500;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
 
 #quote {
   margin: 0% auto;
 }
 
+.hint {
+  text-align: left;
+  margin-top: 4px;
+  margin-left: 40px;
+}
+
 footer {
   font-weight: 600;
+  background-color: rgba(250, 235, 215, 0.6);
+  border-radius: 10px;
+  padding: 15px 5px;
 
   max-width: 80%;
   margin: 0% auto;
   margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 footer a {
