@@ -3,6 +3,7 @@ h1 {
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #dbd7cc;
 }
 
 .container {
@@ -85,7 +86,7 @@ form {
 
 .hint {
   text-align: left;
-  margin-top: 4px;
+  margin-top: 8px;
   margin-left: 40px;
 }
 
