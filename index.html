@@ -6,11 +6,12 @@
 
     <link rel="stylesheet" href="src/styles.css" />
     <title>AI Quote Generator</title>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
 <div class="container">
   <header><h1>Welcome to the Motivational Quote Generator</h1></header>
   <body>
-<form>
+<form id="quote-generator-form">
   <input type="text" placeholder="Enter topic for your quote" autofocus class="search-bar">
 <input type="submit" placeholder="Get Quote" class="submit-button">
 </form>
@@ -18,12 +19,10 @@
       <div class="loading-message">Grabbing your quote for you..💭</div>
    
 <div class="quote-container">
-        “You have brains in your head. You have feet in your shoes. You can
-        steer yourself any direction you choose. You're on your own. And you
-        know what you know. And you are the guy who'll decide where to go." —
-        Dr. Seuss
-    
+  <div id="quote">
+       
     </div>
+   </div>
 
       <footer>
         This AI project is coded by <a href="#">Cassidy Perry</a> & is open sourced on
